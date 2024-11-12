@@ -144,6 +144,11 @@ const CourseList = () => {
           Add New Course
         </button>
       </Link>
+      <Link to="/signup">
+        <button className="bg-blue-500 text-white px-4 py-2 rounded mb-4 hover:bg-blue-600">
+          Add admin
+        </button>
+      </Link>
       <ul className="space-y-4">
         {courses.map((course) => (
           <li

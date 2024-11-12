@@ -27,12 +27,10 @@ const Navbar = () => {
             <Link to="/blogs" className="text-gray-600 hover:text-indigo-600">
               Blogs
             </Link>
-            <Link to="/about" className="text-gray-600 hover:text-indigo-600">
-              About
+            <Link to="/Login" className="text-gray-600 hover:text-indigo-600">
+              Login
             </Link>
-            <Link to="/contact" className="text-gray-600 hover:text-indigo-600">
-              Contact
-            </Link>
+            
           </div>
 
           {/* Hamburger Icon for Mobile */}
@@ -86,19 +84,13 @@ const Navbar = () => {
               Blogs
             </Link>
             <Link
-              to="/about"
+              to="/Login"
               onClick={() => setIsOpen(false)}
               className="block py-2 px-4 text-sm text-gray-600 hover:text-indigo-600"
             >
-              About
+              Login
             </Link>
-            <Link
-              to="/contact"
-              onClick={() => setIsOpen(false)}
-              className="block py-2 px-4 text-sm text-gray-600 hover:text-indigo-600"
-            >
-              Contact
-            </Link>
+            
           </div>
         )}
       </div>
